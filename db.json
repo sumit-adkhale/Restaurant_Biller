@@ -1,0 +1,2356 @@
+{
+  "user": [
+    {
+      "username": "user1",
+      "password": "user123",
+      "id": "1"
+    },
+    {
+      "username": "user2",
+      "password": "user234",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "username": "Sumit2",
+      "password": "Sumit@123"
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin1",
+      "password": "admin123",
+      "id": "3d3f"
+    },
+    {
+      "username": "admin2",
+      "password": "admin234",
+      "id": "5d86"
+    }
+  ],
+  "Targets": [
+    {
+      "id": "bece",
+      "MonthlyTarget": "1",
+      "MonthlyTargetType": "L",
+      "WeeklyTarget": "40",
+      "WeeklyTargetType": "K"
+    }
+  ],
+  "FoodDetails": [
+    {
+      "foodName": "rices",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "150",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "foodName": "Lollipop",
+      "type": "Non-veg",
+      "cusine": "Chinese",
+      "price": "250"
+    },
+    {
+      "id": "3",
+      "foodName": "soup",
+      "type": "veg",
+      "cusine": "Tandoor",
+      "price": "92"
+    }
+  ],
+  "KOT": [
+    {
+      "id": "",
+      "customerName": "SA",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "customerName": "SA2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "customerName": "SA3",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "customerName": "SA34",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "customerName": "SA6",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "DiningKOT": [
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "tablename": "Table 3",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "TableDetails": [
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:36:15 PM",
+      "PaymentDate": "08/06/2025",
+      "PaymentTime": "1:53:06 PM",
+      "PaymentDay": 0
+    },
+    {
+      "id": "2",
+      "tablename": "Table 2",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "08/06/2025",
+      "PlacedTime": "2:02:19 PM",
+      "PaymentDate": "08/06/2025",
+      "PaymentTime": "2:19:28 PM",
+      "PaymentDay": 0
+    },
+    {
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:34:03 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:35:59 PM",
+      "id": "3"
+    }
+  ],
+  "TakeAway": [
+    {
+      "id": "1",
+      "customerName": "SA",
+      "customerContact": "1234567896",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "4:06:31 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "4:13:12 PM"
+    },
+    {
+      "id": "2",
+      "customerName": "SA2",
+      "customerContact": "9874567896",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "4:19:48 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "4:24:20 PM"
+    },
+    {
+      "id": "3",
+      "customerName": "SA3",
+      "customerContact": "9808454637",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "4:25:38 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "4:25:51 PM"
+    },
+    {
+      "id": "4",
+      "customerName": "SA34",
+      "customerContact": "6589836373",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "4:28:49 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "4:29:35 PM",
+      "CancelledDate": "04/05/2025",
+      "CancelledTime": "4:30:09 PM"
+    },
+    {
+      "id": "5",
+      "customerName": "SA6",
+      "customerContact": "9122364738",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 492,
+      "GST": "24.60",
+      "totalAmount": 516,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "4:30:37 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "4:30:41 PM",
+      "CancelledDate": "04/05/2025",
+      "CancelledTime": "4:30:55 PM"
+    },
+    {
+      "id": "6",
+      "customerName": "sa",
+      "customerContact": "6589836373",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 492,
+      "GST": "24.60",
+      "totalAmount": 516,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "9:12:34 PM",
+      "PaymentDate": "08/06/2025",
+      "PaymentTime": "1:59:21 PM",
+      "PaymentDay": 0,
+      "CancelledDate": "08/06/2025",
+      "CancelledTime": "1:59:30 PM"
+    }
+  ],
+  "AllDinings": [
+    {
+      "id": "1",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "4:47:06 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "5:11:55 PM"
+    },
+    {
+      "id": "2",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:22:32 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:23:59 PM"
+    },
+    {
+      "id": "3",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:22:32 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:24:30 PM"
+    },
+    {
+      "id": "4",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:22:32 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:25:39 PM"
+    },
+    {
+      "id": "5",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:22:32 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:26:08 PM"
+    },
+    {
+      "id": "6",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:22:32 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:26:54 PM"
+    },
+    {
+      "id": "7",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:22:32 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:27:43 PM"
+    },
+    {
+      "id": "8",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 492,
+      "GST": "24.60",
+      "totalAmount": 516,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:28:16 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:29:14 PM"
+    },
+    {
+      "id": "9",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:53:34 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:53:42 PM"
+    },
+    {
+      "id": "10",
+      "tablename": "Table 2",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:54:59 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:55:09 PM"
+    },
+    {
+      "id": "11",
+      "tablename": "Table 2",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:54:59 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:55:59 PM"
+    },
+    {
+      "id": "12",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 92,
+      "GST": "4.60",
+      "totalAmount": 96,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:56:56 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:57:05 PM"
+    },
+    {
+      "id": "13",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 92,
+      "GST": "4.60",
+      "totalAmount": 96,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:57:36 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:57:42 PM"
+    },
+    {
+      "id": "14",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 242,
+      "GST": "12.10",
+      "totalAmount": 254,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:58:01 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:58:06 PM"
+    },
+    {
+      "id": "15",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 342,
+      "GST": "17.10",
+      "totalAmount": 359,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "6:58:21 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "6:58:26 PM"
+    },
+    {
+      "id": "16",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:00:11 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:00:20 PM"
+    },
+    {
+      "id": "17",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:00:11 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:12:14 PM"
+    },
+    {
+      "id": "18",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:12:31 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:12:40 PM"
+    },
+    {
+      "id": "19",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 492,
+      "GST": "24.60",
+      "totalAmount": 516,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:12:56 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:13:10 PM"
+    },
+    {
+      "id": "20",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 492,
+      "GST": "24.60",
+      "totalAmount": 516,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:12:56 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:15:04 PM"
+    },
+    {
+      "id": "21",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 342,
+      "GST": "17.10",
+      "totalAmount": 359,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:17:53 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:18:01 PM"
+    },
+    {
+      "id": "22",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:32:12 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:32:23 PM"
+    },
+    {
+      "id": "23",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "3",
+          "foodName": "soup",
+          "type": "veg",
+          "cusine": "Tandoor",
+          "price": "92",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 92,
+      "GST": "4.60",
+      "totalAmount": 96,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:33:31 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:33:37 PM"
+    },
+    {
+      "id": "24",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "7:33:46 PM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "7:33:53 PM"
+    },
+    {
+      "id": "25",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "04/06/2025",
+      "PlacedTime": "4:31:40 PM",
+      "CancelledDate": "04/06/2025",
+      "CancelledTime": "4:31:54 PM"
+    },
+    {
+      "id": "26",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "04/06/2025",
+      "PlacedTime": "9:04:07 PM",
+      "CancelledDate": "04/06/2025",
+      "CancelledTime": "9:04:44 PM"
+    },
+    {
+      "id": "27",
+      "tablename": "Table 2",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "04/06/2025",
+      "PlacedTime": "9:04:20 PM",
+      "CancelledDate": "04/06/2025",
+      "CancelledTime": "9:04:48 PM"
+    },
+    {
+      "id": "28",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "04/06/2025",
+      "PlacedTime": "9:04:34 PM",
+      "CancelledDate": "04/06/2025",
+      "CancelledTime": "9:04:50 PM"
+    },
+    {
+      "id": "29",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "04/06/2025",
+      "PlacedTime": "9:05:26 PM",
+      "CancelledDate": "04/06/2025",
+      "CancelledTime": "9:05:29 PM"
+    },
+    {
+      "id": "30",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:10:03 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:15:43 PM"
+    },
+    {
+      "id": "31",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:16:50 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:17:06 PM"
+    },
+    {
+      "id": "32",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:20:12 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:20:14 PM"
+    },
+    {
+      "id": "33",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:21:38 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:31:34 PM"
+    },
+    {
+      "id": "34",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:33:34 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:35:45 PM"
+    },
+    {
+      "id": "35",
+      "tablename": "Table 2",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:33:52 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:35:53 PM"
+    },
+    {
+      "id": "36",
+      "tablename": "Table 3",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 150,
+      "GST": "7.50",
+      "totalAmount": 157,
+      "paymentDone": false,
+      "paymentMode": "",
+      "orderStatus": "Cancelled",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:34:03 PM",
+      "CancelledDate": "07/06/2025",
+      "CancelledTime": "8:35:59 PM"
+    },
+    {
+      "id": "37",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 250,
+      "GST": "12.50",
+      "totalAmount": 262,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "8:36:15 PM",
+      "PaymentDate": "08/06/2025",
+      "PaymentTime": "1:53:06 PM",
+      "PaymentDay": 0
+    },
+    {
+      "id": "38",
+      "tablename": "Table 2",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "2",
+          "foodName": "Lollipop",
+          "type": "Non-veg",
+          "cusine": "Chinese",
+          "price": "250",
+          "quantity": 1
+        },
+        {
+          "foodName": "rices",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "150",
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "08/06/2025",
+      "PlacedTime": "2:02:19 PM",
+      "PaymentDate": "08/06/2025",
+      "PaymentTime": "2:19:28 PM",
+      "PaymentDay": 0
+    }
+  ]
+}
