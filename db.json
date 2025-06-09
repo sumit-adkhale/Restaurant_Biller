@@ -58,6 +58,146 @@
       "type": "veg",
       "cusine": "Tandoor",
       "price": "92"
+    },
+    {
+      "id": "4",
+      "foodName": "Butter Chicken",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "320"
+    },
+    {
+      "id": "5",
+      "foodName": "Paneer Tikka",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "280"
+    },
+    {
+      "id": "6",
+      "foodName": "Hakka Noodles",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "200"
+    },
+    {
+      "id": "7",
+      "foodName": "Chicken Manchurian",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "240"
+    },
+    {
+      "id": "8",
+      "foodName": "Masala Dosa",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "120"
+    },
+    {
+      "id": "9",
+      "foodName": "Veg Biryani",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "180"
+    },
+    {
+      "id": "10",
+      "foodName": "Chicken Biryani",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "220"
+    },
+    {
+      "id": "11",
+      "foodName": "Tandoori Chicken",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "310"
+    },
+    {
+      "id": "12",
+      "foodName": "Chole Bhature",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "150"
+    },
+    {
+      "id": "13",
+      "foodName": "Spring Rolls",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "160"
+    },
+    {
+      "id": "14",
+      "foodName": "Fish Curry",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "270"
+    },
+    {
+      "id": "15",
+      "foodName": "Dal Tadka",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "130"
+    },
+    {
+      "id": "16",
+      "foodName": "Rajma Chawal",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "140"
+    },
+    {
+      "id": "17",
+      "foodName": "Chicken Kebab",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "290"
+    },
+    {
+      "id": "18",
+      "foodName": "Pav Bhaji",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "100"
+    },
+    {
+      "id": "19",
+      "foodName": "Egg Curry",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "190"
+    },
+    {
+      "id": "20",
+      "foodName": "Mutton Rogan Josh",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "350"
+    },
+    {
+      "id": "21",
+      "foodName": "Veg Fried Rice",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "170"
+    },
+    {
+      "id": "22",
+      "foodName": "Samosa",
+      "type": "veg",
+      "cusine": "Indian",
+      "price": "30"
+    },
+    {
+      "id": "23",
+      "foodName": "Chicken 65",
+      "type": "Non-veg",
+      "cusine": "Indian",
+      "price": "210"
     }
   ],
   "KOT": [
@@ -1216,6 +1356,2018 @@
       "PaymentDay": 0,
       "CancelledDate": "08/06/2025",
       "CancelledTime": "1:59:30 PM"
+    },
+    {
+      "id": "100",
+      "customerName": "Customer 100",
+      "customerContact": "9821984541",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 800,
+      "GST": "40.00",
+      "totalAmount": 840,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "21/04/2025",
+      "PlacedTime": "10:56:00 AM",
+      "PaymentDate": "21/04/2025",
+      "PaymentTime": "11:01:00 AM"
+    },
+    {
+      "id": "101",
+      "customerName": "Customer 101",
+      "customerContact": "9893919074",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        },
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 960,
+      "GST": "48.00",
+      "totalAmount": 1008,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "18/04/2025",
+      "PlacedTime": "12:52:00 PM",
+      "PaymentDate": "18/04/2025",
+      "PaymentTime": "12:53:00 PM"
+    },
+    {
+      "id": "102",
+      "customerName": "Customer 102",
+      "customerContact": "9863202043",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        },
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 750,
+      "GST": "37.50",
+      "totalAmount": 788,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "09/04/2025",
+      "PlacedTime": "05:54:00 PM",
+      "PaymentDate": "09/04/2025",
+      "PaymentTime": "05:59:00 PM"
+    },
+    {
+      "id": "103",
+      "customerName": "Customer 103",
+      "customerContact": "9841428437",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        },
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 580,
+      "GST": "29.00",
+      "totalAmount": 609,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "12/04/2025",
+      "PlacedTime": "03:30:00 PM",
+      "PaymentDate": "12/04/2025",
+      "PaymentTime": "03:33:00 PM"
+    },
+    {
+      "id": "104",
+      "customerName": "Customer 104",
+      "customerContact": "9853827637",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 240,
+      "GST": "12.00",
+      "totalAmount": 252,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/04/2025",
+      "PlacedTime": "08:58:00 PM",
+      "PaymentDate": "01/04/2025",
+      "PaymentTime": "09:04:00 PM"
+    },
+    {
+      "id": "105",
+      "customerName": "Customer 105",
+      "customerContact": "9878274892",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 1
+        },
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 610,
+      "GST": "30.50",
+      "totalAmount": 640,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "02/04/2025",
+      "PlacedTime": "11:51:00 AM",
+      "PaymentDate": "02/04/2025",
+      "PaymentTime": "11:55:00 AM"
+    },
+    {
+      "id": "106",
+      "customerName": "Customer 106",
+      "customerContact": "9861610295",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 220,
+      "GST": "11.00",
+      "totalAmount": 231,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "13/04/2025",
+      "PlacedTime": "01:42:00 PM",
+      "PaymentDate": "13/04/2025",
+      "PaymentTime": "01:45:00 PM"
+    },
+    {
+      "id": "107",
+      "customerName": "Customer 107",
+      "customerContact": "9815556831",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 800,
+      "GST": "40.00",
+      "totalAmount": 840,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "20/04/2025",
+      "PlacedTime": "12:49:00 PM",
+      "PaymentDate": "20/04/2025",
+      "PaymentTime": "12:58:00 PM"
+    },
+    {
+      "id": "108",
+      "customerName": "Customer 108",
+      "customerContact": "9873612985",
+      "order": [
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        },
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 760,
+      "GST": "38.00",
+      "totalAmount": 798,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "20/04/2025",
+      "PlacedTime": "10:03:00 AM",
+      "PaymentDate": "20/04/2025",
+      "PaymentTime": "10:04:00 AM"
+    },
+    {
+      "id": "109",
+      "customerName": "Customer 109",
+      "customerContact": "9855545434",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 900,
+      "GST": "45.00",
+      "totalAmount": 945,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "10/04/2025",
+      "PlacedTime": "04:06:00 PM",
+      "PaymentDate": "10/04/2025",
+      "PaymentTime": "04:10:00 PM"
+    },
+    {
+      "id": "110",
+      "customerName": "Customer 110",
+      "customerContact": "9858948761",
+      "order": [
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 2
+        },
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 680,
+      "GST": "34.00",
+      "totalAmount": 714,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "26/04/2025",
+      "PlacedTime": "12:27:00 PM",
+      "PaymentDate": "26/04/2025",
+      "PaymentTime": "12:31:00 PM"
+    },
+    {
+      "id": "111",
+      "customerName": "Customer 111",
+      "customerContact": "9891845350",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 380,
+      "GST": "19.00",
+      "totalAmount": 399,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/04/2025",
+      "PlacedTime": "01:52:00 PM",
+      "PaymentDate": "01/04/2025",
+      "PaymentTime": "01:55:00 PM"
+    },
+    {
+      "id": "112",
+      "customerName": "Customer 112",
+      "customerContact": "9889265812",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 540,
+      "GST": "27.00",
+      "totalAmount": 567,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "05/04/2025",
+      "PlacedTime": "05:05:00 PM",
+      "PaymentDate": "05/04/2025",
+      "PaymentTime": "05:12:00 PM"
+    },
+    {
+      "id": "113",
+      "customerName": "Customer 113",
+      "customerContact": "9896620637",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 1
+        },
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 2
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 750,
+      "GST": "37.50",
+      "totalAmount": 788,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/04/2025",
+      "PlacedTime": "03:54:00 PM",
+      "PaymentDate": "01/04/2025",
+      "PaymentTime": "03:58:00 PM"
+    },
+    {
+      "id": "114",
+      "customerName": "Customer 114",
+      "customerContact": "9880780384",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 840,
+      "GST": "42.00",
+      "totalAmount": 882,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "27/04/2025",
+      "PlacedTime": "06:25:00 PM",
+      "PaymentDate": "27/04/2025",
+      "PaymentTime": "06:28:00 PM"
+    },
+    {
+      "id": "115",
+      "customerName": "Customer 115",
+      "customerContact": "9886299107",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 480,
+      "GST": "24.00",
+      "totalAmount": 504,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "09/04/2025",
+      "PlacedTime": "10:33:00 AM",
+      "PaymentDate": "09/04/2025",
+      "PaymentTime": "10:35:00 AM"
+    },
+    {
+      "id": "116",
+      "customerName": "Customer 116",
+      "customerContact": "9860807476",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 320,
+      "GST": "16.00",
+      "totalAmount": 336,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "26/04/2025",
+      "PlacedTime": "12:45:00 PM",
+      "PaymentDate": "26/04/2025",
+      "PaymentTime": "12:46:00 PM"
+    },
+    {
+      "id": "117",
+      "customerName": "Customer 117",
+      "customerContact": "9824033047",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 490,
+      "GST": "24.50",
+      "totalAmount": 514,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/04/2025",
+      "PlacedTime": "04:07:00 PM",
+      "PaymentDate": "16/04/2025",
+      "PaymentTime": "04:09:00 PM"
+    },
+    {
+      "id": "118",
+      "customerName": "Customer 118",
+      "customerContact": "9883958812",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 440,
+      "GST": "22.00",
+      "totalAmount": 462,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "10/04/2025",
+      "PlacedTime": "11:28:00 AM",
+      "PaymentDate": "10/04/2025",
+      "PaymentTime": "11:37:00 AM"
+    },
+    {
+      "id": "119",
+      "customerName": "Customer 119",
+      "customerContact": "9853547512",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 340,
+      "GST": "17.00",
+      "totalAmount": 357,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "05/04/2025",
+      "PlacedTime": "11:58:00 AM",
+      "PaymentDate": "05/04/2025",
+      "PaymentTime": "12:08:00 PM"
+    },
+    {
+      "id": "120",
+      "customerName": "Customer 120",
+      "customerContact": "9816809908",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 170,
+      "GST": "8.50",
+      "totalAmount": 178,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "06/05/2025",
+      "PlacedTime": "02:16:00 PM",
+      "PaymentDate": "06/05/2025",
+      "PaymentTime": "02:25:00 PM"
+    },
+    {
+      "id": "121",
+      "customerName": "Customer 121",
+      "customerContact": "9832235969",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 380,
+      "GST": "19.00",
+      "totalAmount": 399,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "21/05/2025",
+      "PlacedTime": "12:50:00 PM",
+      "PaymentDate": "21/05/2025",
+      "PaymentTime": "12:51:00 PM"
+    },
+    {
+      "id": "122",
+      "customerName": "Customer 122",
+      "customerContact": "9840527055",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 600,
+      "GST": "30.00",
+      "totalAmount": 630,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "11/05/2025",
+      "PlacedTime": "06:36:00 PM",
+      "PaymentDate": "11/05/2025",
+      "PaymentTime": "06:44:00 PM"
+    },
+    {
+      "id": "123",
+      "customerName": "Customer 123",
+      "customerContact": "9894255879",
+      "order": [
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 780,
+      "GST": "39.00",
+      "totalAmount": 819,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "26/05/2025",
+      "PlacedTime": "06:10:00 PM",
+      "PaymentDate": "26/05/2025",
+      "PaymentTime": "06:12:00 PM"
+    },
+    {
+      "id": "124",
+      "customerName": "Customer 124",
+      "customerContact": "9899485834",
+      "order": [
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 660,
+      "GST": "33.00",
+      "totalAmount": 693,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "03/05/2025",
+      "PlacedTime": "06:56:00 PM",
+      "PaymentDate": "03/05/2025",
+      "PaymentTime": "07:05:00 PM"
+    },
+    {
+      "id": "125",
+      "customerName": "Customer 125",
+      "customerContact": "9861485684",
+      "order": [
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 210,
+      "GST": "10.50",
+      "totalAmount": 220,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "15/05/2025",
+      "PlacedTime": "10:17:00 AM",
+      "PaymentDate": "15/05/2025",
+      "PaymentTime": "10:25:00 AM"
+    },
+    {
+      "id": "126",
+      "customerName": "Customer 126",
+      "customerContact": "9862150781",
+      "order": [
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 640,
+      "GST": "32.00",
+      "totalAmount": 672,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "17/05/2025",
+      "PlacedTime": "01:07:00 PM",
+      "PaymentDate": "17/05/2025",
+      "PaymentTime": "01:15:00 PM"
+    },
+    {
+      "id": "127",
+      "customerName": "Customer 127",
+      "customerContact": "9884014086",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 570,
+      "GST": "28.50",
+      "totalAmount": 598,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "11/05/2025",
+      "PlacedTime": "05:28:00 PM",
+      "PaymentDate": "11/05/2025",
+      "PaymentTime": "05:36:00 PM"
+    },
+    {
+      "id": "128",
+      "customerName": "Customer 128",
+      "customerContact": "9896595856",
+      "order": [
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 2
+        },
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 380,
+      "GST": "19.00",
+      "totalAmount": 399,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/05/2025",
+      "PlacedTime": "06:02:00 PM",
+      "PaymentDate": "16/05/2025",
+      "PaymentTime": "06:06:00 PM"
+    },
+    {
+      "id": "129",
+      "customerName": "Customer 129",
+      "customerContact": "9835317516",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        },
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 1
+        },
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 620,
+      "GST": "31.00",
+      "totalAmount": 651,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "21/05/2025",
+      "PlacedTime": "02:17:00 PM",
+      "PaymentDate": "21/05/2025",
+      "PaymentTime": "02:25:00 PM"
+    },
+    {
+      "id": "130",
+      "customerName": "Customer 130",
+      "customerContact": "9876231826",
+      "order": [
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 540,
+      "GST": "27.00",
+      "totalAmount": 567,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "13/05/2025",
+      "PlacedTime": "05:01:00 PM",
+      "PaymentDate": "13/05/2025",
+      "PaymentTime": "05:10:00 PM"
+    },
+    {
+      "id": "131",
+      "customerName": "Customer 131",
+      "customerContact": "9868712921",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 620,
+      "GST": "31.00",
+      "totalAmount": 651,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "17/05/2025",
+      "PlacedTime": "08:02:00 PM",
+      "PaymentDate": "17/05/2025",
+      "PaymentTime": "08:12:00 PM"
+    },
+    {
+      "id": "132",
+      "customerName": "Customer 132",
+      "customerContact": "9871567060",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        },
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 1
+        },
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1150,
+      "GST": "57.50",
+      "totalAmount": 1208,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "28/05/2025",
+      "PlacedTime": "02:24:00 PM",
+      "PaymentDate": "28/05/2025",
+      "PaymentTime": "02:29:00 PM"
+    },
+    {
+      "id": "133",
+      "customerName": "Customer 133",
+      "customerContact": "9816055710",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 560,
+      "GST": "28.00",
+      "totalAmount": 588,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "22/05/2025",
+      "PlacedTime": "11:58:00 AM",
+      "PaymentDate": "22/05/2025",
+      "PaymentTime": "12:00:00 PM"
+    },
+    {
+      "id": "134",
+      "customerName": "Customer 134",
+      "customerContact": "9876820936",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        },
+        {
+          "id": "11",
+          "foodName": "Food 11",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "310",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 990,
+      "GST": "49.50",
+      "totalAmount": 1040,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "26/05/2025",
+      "PlacedTime": "11:03:00 AM",
+      "PaymentDate": "26/05/2025",
+      "PaymentTime": "11:04:00 AM"
+    },
+    {
+      "id": "135",
+      "customerName": "Customer 135",
+      "customerContact": "9882934155",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        },
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 710,
+      "GST": "35.50",
+      "totalAmount": 746,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "07/05/2025",
+      "PlacedTime": "10:30:00 AM",
+      "PaymentDate": "07/05/2025",
+      "PaymentTime": "10:39:00 AM"
+    },
+    {
+      "id": "136",
+      "customerName": "Customer 136",
+      "customerContact": "9895287709",
+      "order": [
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        },
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 560,
+      "GST": "28.00",
+      "totalAmount": 588,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "18/05/2025",
+      "PlacedTime": "06:33:00 PM",
+      "PaymentDate": "18/05/2025",
+      "PaymentTime": "06:35:00 PM"
+    },
+    {
+      "id": "137",
+      "customerName": "Customer 137",
+      "customerContact": "9869990231",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 490,
+      "GST": "24.50",
+      "totalAmount": 514,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "15/05/2025",
+      "PlacedTime": "02:27:00 PM",
+      "PaymentDate": "15/05/2025",
+      "PaymentTime": "02:32:00 PM"
+    },
+    {
+      "id": "138",
+      "customerName": "Customer 138",
+      "customerContact": "9857550282",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 290,
+      "GST": "14.50",
+      "totalAmount": 304,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "05/05/2025",
+      "PlacedTime": "05:46:00 PM",
+      "PaymentDate": "05/05/2025",
+      "PaymentTime": "05:54:00 PM"
+    },
+    {
+      "id": "139",
+      "customerName": "Customer 139",
+      "customerContact": "9898221199",
+      "order": [
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 390,
+      "GST": "19.50",
+      "totalAmount": 410,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "24/05/2025",
+      "PlacedTime": "03:21:00 PM",
+      "PaymentDate": "24/05/2025",
+      "PaymentTime": "03:25:00 PM"
+    },
+    {
+      "id": "140",
+      "customerName": "Customer 140",
+      "customerContact": "9848397877",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 2
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 880,
+      "GST": "44.00",
+      "totalAmount": 924,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "05/06/2025",
+      "PlacedTime": "11:33:00 AM",
+      "PaymentDate": "05/06/2025",
+      "PaymentTime": "11:37:00 AM"
+    },
+    {
+      "id": "141",
+      "customerName": "Customer 141",
+      "customerContact": "9885631601",
+      "order": [
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 2
+        },
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 680,
+      "GST": "34.00",
+      "totalAmount": 714,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "22/06/2025",
+      "PlacedTime": "12:16:00 PM",
+      "PaymentDate": "22/06/2025",
+      "PaymentTime": "12:18:00 PM"
+    },
+    {
+      "id": "142",
+      "customerName": "Customer 142",
+      "customerContact": "9886787889",
+      "order": [
+        {
+          "id": "11",
+          "foodName": "Food 11",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "310",
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 2
+        },
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 730,
+      "GST": "36.50",
+      "totalAmount": 766,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/06/2025",
+      "PlacedTime": "07:11:00 PM",
+      "PaymentDate": "16/06/2025",
+      "PaymentTime": "07:18:00 PM"
+    },
+    {
+      "id": "143",
+      "customerName": "Customer 143",
+      "customerContact": "9816696376",
+      "order": [
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 2
+        },
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 2
+        },
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1420,
+      "GST": "71.00",
+      "totalAmount": 1491,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/06/2025",
+      "PlacedTime": "11:44:00 AM",
+      "PaymentDate": "16/06/2025",
+      "PaymentTime": "11:54:00 AM"
+    },
+    {
+      "id": "144",
+      "customerName": "Customer 144",
+      "customerContact": "9841903497",
+      "order": [
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 700,
+      "GST": "35.00",
+      "totalAmount": 735,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "22/06/2025",
+      "PlacedTime": "12:02:00 PM",
+      "PaymentDate": "22/06/2025",
+      "PaymentTime": "12:10:00 PM"
+    },
+    {
+      "id": "145",
+      "customerName": "Customer 145",
+      "customerContact": "9811953889",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 2
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 1140,
+      "GST": "57.00",
+      "totalAmount": 1197,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/06/2025",
+      "PlacedTime": "01:12:00 PM",
+      "PaymentDate": "16/06/2025",
+      "PaymentTime": "01:21:00 PM"
+    },
+    {
+      "id": "146",
+      "customerName": "Customer 146",
+      "customerContact": "9819789297",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 1
+        },
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 1
+        },
+        {
+          "id": "11",
+          "foodName": "Food 11",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "310",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1130,
+      "GST": "56.50",
+      "totalAmount": 1186,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "18/06/2025",
+      "PlacedTime": "07:34:00 PM",
+      "PaymentDate": "18/06/2025",
+      "PaymentTime": "07:38:00 PM"
+    },
+    {
+      "id": "147",
+      "customerName": "Customer 147",
+      "customerContact": "9874791603",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 380,
+      "GST": "19.00",
+      "totalAmount": 399,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "02/06/2025",
+      "PlacedTime": "06:13:00 PM",
+      "PaymentDate": "02/06/2025",
+      "PaymentTime": "06:18:00 PM"
+    },
+    {
+      "id": "148",
+      "customerName": "Customer 148",
+      "customerContact": "9890457344",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 1
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 1
+        },
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 740,
+      "GST": "37.00",
+      "totalAmount": 777,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/06/2025",
+      "PlacedTime": "04:29:00 PM",
+      "PaymentDate": "01/06/2025",
+      "PaymentTime": "04:33:00 PM"
+    },
+    {
+      "id": "149",
+      "customerName": "Customer 149",
+      "customerContact": "9840071723",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 220,
+      "GST": "11.00",
+      "totalAmount": 231,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "11/06/2025",
+      "PlacedTime": "01:50:00 PM",
+      "PaymentDate": "11/06/2025",
+      "PaymentTime": "01:55:00 PM"
+    },
+    {
+      "id": "150",
+      "customerName": "Customer 150",
+      "customerContact": "9888502470",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        },
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 840,
+      "GST": "42.00",
+      "totalAmount": 882,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/06/2025",
+      "PlacedTime": "02:38:00 PM",
+      "PaymentDate": "01/06/2025",
+      "PaymentTime": "02:41:00 PM"
+    },
+    {
+      "id": "151",
+      "customerName": "Customer 151",
+      "customerContact": "9870244625",
+      "order": [
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 700,
+      "GST": "35.00",
+      "totalAmount": 735,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "23/06/2025",
+      "PlacedTime": "03:01:00 PM",
+      "PaymentDate": "23/06/2025",
+      "PaymentTime": "03:06:00 PM"
+    },
+    {
+      "id": "152",
+      "customerName": "Customer 152",
+      "customerContact": "9837042537",
+      "order": [
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 420,
+      "GST": "21.00",
+      "totalAmount": 441,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/06/2025",
+      "PlacedTime": "07:10:00 PM",
+      "PaymentDate": "16/06/2025",
+      "PaymentTime": "07:13:00 PM"
+    },
+    {
+      "id": "153",
+      "customerName": "Customer 153",
+      "customerContact": "9861328103",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 540,
+      "GST": "27.00",
+      "totalAmount": 567,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "23/06/2025",
+      "PlacedTime": "02:29:00 PM",
+      "PaymentDate": "23/06/2025",
+      "PaymentTime": "02:38:00 PM"
+    },
+    {
+      "id": "154",
+      "customerName": "Customer 154",
+      "customerContact": "9854544562",
+      "order": [
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 240,
+      "GST": "12.00",
+      "totalAmount": 252,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "14/06/2025",
+      "PlacedTime": "03:03:00 PM",
+      "PaymentDate": "14/06/2025",
+      "PaymentTime": "03:10:00 PM"
+    },
+    {
+      "id": "155",
+      "customerName": "Customer 155",
+      "customerContact": "9831659810",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 200,
+      "GST": "10.00",
+      "totalAmount": 210,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "17/06/2025",
+      "PlacedTime": "05:41:00 PM",
+      "PaymentDate": "17/06/2025",
+      "PaymentTime": "05:43:00 PM"
+    },
+    {
+      "id": "156",
+      "customerName": "Customer 156",
+      "customerContact": "9887089753",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        },
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 2
+        },
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 1130,
+      "GST": "56.50",
+      "totalAmount": 1186,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/06/2025",
+      "PlacedTime": "02:50:00 PM",
+      "PaymentDate": "04/06/2025",
+      "PaymentTime": "02:59:00 PM"
+    },
+    {
+      "id": "157",
+      "customerName": "Customer 157",
+      "customerContact": "9851470335",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 2
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1000,
+      "GST": "50.00",
+      "totalAmount": 1050,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "08/06/2025",
+      "PlacedTime": "06:17:00 PM",
+      "PaymentDate": "08/06/2025",
+      "PaymentTime": "06:20:00 PM"
+    },
+    {
+      "id": "158",
+      "customerName": "Customer 158",
+      "customerContact": "9830894206",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        },
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 2
+        },
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 480,
+      "GST": "24.00",
+      "totalAmount": 504,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "09/06/2025",
+      "PlacedTime": "12:29:00 PM",
+      "PaymentDate": "09/06/2025",
+      "PaymentTime": "12:33:00 PM"
+    },
+    {
+      "id": "159",
+      "customerName": "Customer 159",
+      "customerContact": "9836056660",
+      "order": [
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 790,
+      "GST": "39.50",
+      "totalAmount": 830,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "06/06/2025",
+      "PlacedTime": "03:10:00 PM",
+      "PaymentDate": "06/06/2025",
+      "PaymentTime": "03:13:00 PM"
     }
   ],
   "AllDinings": [
@@ -2351,6 +4503,2054 @@
       "PaymentDate": "08/06/2025",
       "PaymentTime": "2:19:28 PM",
       "PaymentDay": 0
+    },
+    {
+      "id": "100",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 900,
+      "GST": "45.00",
+      "totalAmount": 945,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "03/04/2025",
+      "PlacedTime": "03:47:00 PM",
+      "PaymentDate": "03/04/2025",
+      "PaymentTime": "03:49:00 PM"
+    },
+    {
+      "id": "101",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1120,
+      "GST": "56.00",
+      "totalAmount": 1176,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "25/04/2025",
+      "PlacedTime": "02:44:00 PM",
+      "PaymentDate": "25/04/2025",
+      "PaymentTime": "02:48:00 PM"
+    },
+    {
+      "id": "102",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 2
+        },
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 870,
+      "GST": "43.50",
+      "totalAmount": 914,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/04/2025",
+      "PlacedTime": "10:00:00 AM",
+      "PaymentDate": "16/04/2025",
+      "PaymentTime": "10:07:00 AM"
+    },
+    {
+      "id": "103",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 720,
+      "GST": "36.00",
+      "totalAmount": 756,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "07/04/2025",
+      "PlacedTime": "03:54:00 PM",
+      "PaymentDate": "07/04/2025",
+      "PaymentTime": "04:04:00 PM"
+    },
+    {
+      "id": "104",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 490,
+      "GST": "24.50",
+      "totalAmount": 514,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "27/04/2025",
+      "PlacedTime": "05:46:00 PM",
+      "PaymentDate": "27/04/2025",
+      "PaymentTime": "05:53:00 PM"
+    },
+    {
+      "id": "105",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 750,
+      "GST": "37.50",
+      "totalAmount": 788,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "23/04/2025",
+      "PlacedTime": "01:18:00 PM",
+      "PaymentDate": "23/04/2025",
+      "PaymentTime": "01:25:00 PM"
+    },
+    {
+      "id": "106",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 30,
+      "GST": "1.50",
+      "totalAmount": 32,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "24/04/2025",
+      "PlacedTime": "05:28:00 PM",
+      "PaymentDate": "24/04/2025",
+      "PaymentTime": "05:29:00 PM"
+    },
+    {
+      "id": "107",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 2
+        },
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        },
+        {
+          "id": "11",
+          "foodName": "Food 11",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "310",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1040,
+      "GST": "52.00",
+      "totalAmount": 1092,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "06/04/2025",
+      "PlacedTime": "05:25:00 PM",
+      "PaymentDate": "06/04/2025",
+      "PaymentTime": "05:32:00 PM"
+    },
+    {
+      "id": "108",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "11",
+          "foodName": "Food 11",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "310",
+          "quantity": 2
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 810,
+      "GST": "40.50",
+      "totalAmount": 850,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "07/04/2025",
+      "PlacedTime": "12:14:00 PM",
+      "PaymentDate": "07/04/2025",
+      "PaymentTime": "12:21:00 PM"
+    },
+    {
+      "id": "109",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 210,
+      "GST": "10.50",
+      "totalAmount": 220,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "10/04/2025",
+      "PlacedTime": "04:24:00 PM",
+      "PaymentDate": "10/04/2025",
+      "PaymentTime": "04:25:00 PM"
+    },
+    {
+      "id": "110",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 2
+        },
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 720,
+      "GST": "36.00",
+      "totalAmount": 756,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/04/2025",
+      "PlacedTime": "12:05:00 PM",
+      "PaymentDate": "16/04/2025",
+      "PaymentTime": "12:15:00 PM"
+    },
+    {
+      "id": "111",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 160,
+      "GST": "8.00",
+      "totalAmount": 168,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/04/2025",
+      "PlacedTime": "07:19:00 PM",
+      "PaymentDate": "04/04/2025",
+      "PaymentTime": "07:25:00 PM"
+    },
+    {
+      "id": "112",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        },
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 2
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 840,
+      "GST": "42.00",
+      "totalAmount": 882,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "28/04/2025",
+      "PlacedTime": "11:03:00 AM",
+      "PaymentDate": "28/04/2025",
+      "PaymentTime": "11:10:00 AM"
+    },
+    {
+      "id": "113",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 640,
+      "GST": "32.00",
+      "totalAmount": 672,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/04/2025",
+      "PlacedTime": "10:30:00 AM",
+      "PaymentDate": "04/04/2025",
+      "PaymentTime": "10:40:00 AM"
+    },
+    {
+      "id": "114",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 320,
+      "GST": "16.00",
+      "totalAmount": 336,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "21/04/2025",
+      "PlacedTime": "05:08:00 PM",
+      "PaymentDate": "21/04/2025",
+      "PaymentTime": "05:17:00 PM"
+    },
+    {
+      "id": "115",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 120,
+      "GST": "6.00",
+      "totalAmount": 126,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "24/04/2025",
+      "PlacedTime": "07:06:00 PM",
+      "PaymentDate": "24/04/2025",
+      "PaymentTime": "07:11:00 PM"
+    },
+    {
+      "id": "116",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 280,
+      "GST": "14.00",
+      "totalAmount": 294,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "22/04/2025",
+      "PlacedTime": "04:23:00 PM",
+      "PaymentDate": "22/04/2025",
+      "PaymentTime": "04:25:00 PM"
+    },
+    {
+      "id": "117",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 610,
+      "GST": "30.50",
+      "totalAmount": 640,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "02/04/2025",
+      "PlacedTime": "10:14:00 AM",
+      "PaymentDate": "02/04/2025",
+      "PaymentTime": "10:20:00 AM"
+    },
+    {
+      "id": "118",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        },
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 490,
+      "GST": "24.50",
+      "totalAmount": 514,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "23/04/2025",
+      "PlacedTime": "06:19:00 PM",
+      "PaymentDate": "23/04/2025",
+      "PaymentTime": "06:20:00 PM"
+    },
+    {
+      "id": "119",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 610,
+      "GST": "30.50",
+      "totalAmount": 640,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "11/04/2025",
+      "PlacedTime": "01:00:00 PM",
+      "PaymentDate": "11/04/2025",
+      "PaymentTime": "01:06:00 PM"
+    },
+    {
+      "id": "120",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 100,
+      "GST": "5.00",
+      "totalAmount": 105,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "12/05/2025",
+      "PlacedTime": "08:32:00 PM",
+      "PaymentDate": "12/05/2025",
+      "PaymentTime": "08:34:00 PM"
+    },
+    {
+      "id": "121",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1480,
+      "GST": "74.00",
+      "totalAmount": 1554,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "24/05/2025",
+      "PlacedTime": "01:24:00 PM",
+      "PaymentDate": "24/05/2025",
+      "PaymentTime": "01:28:00 PM"
+    },
+    {
+      "id": "122",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 390,
+      "GST": "19.50",
+      "totalAmount": 410,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "04/05/2025",
+      "PlacedTime": "10:52:00 AM",
+      "PaymentDate": "04/05/2025",
+      "PaymentTime": "10:57:00 AM"
+    },
+    {
+      "id": "123",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 470,
+      "GST": "23.50",
+      "totalAmount": 494,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/05/2025",
+      "PlacedTime": "03:49:00 PM",
+      "PaymentDate": "01/05/2025",
+      "PaymentTime": "03:54:00 PM"
+    },
+    {
+      "id": "124",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "14",
+          "foodName": "Food 14",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "270",
+          "quantity": 1
+        },
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 490,
+      "GST": "24.50",
+      "totalAmount": 514,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "26/05/2025",
+      "PlacedTime": "05:35:00 PM",
+      "PaymentDate": "26/05/2025",
+      "PaymentTime": "05:42:00 PM"
+    },
+    {
+      "id": "125",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        },
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1520,
+      "GST": "76.00",
+      "totalAmount": 1596,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "22/05/2025",
+      "PlacedTime": "02:32:00 PM",
+      "PaymentDate": "22/05/2025",
+      "PaymentTime": "02:39:00 PM"
+    },
+    {
+      "id": "126",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 2
+        },
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 790,
+      "GST": "39.50",
+      "totalAmount": 830,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "06/05/2025",
+      "PlacedTime": "08:32:00 PM",
+      "PaymentDate": "06/05/2025",
+      "PaymentTime": "08:38:00 PM"
+    },
+    {
+      "id": "127",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 610,
+      "GST": "30.50",
+      "totalAmount": 640,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "10/05/2025",
+      "PlacedTime": "03:13:00 PM",
+      "PaymentDate": "10/05/2025",
+      "PaymentTime": "03:19:00 PM"
+    },
+    {
+      "id": "128",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "8",
+          "foodName": "Food 8",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "120",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 600,
+      "GST": "30.00",
+      "totalAmount": 630,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "05/05/2025",
+      "PlacedTime": "10:35:00 AM",
+      "PaymentDate": "05/05/2025",
+      "PaymentTime": "10:38:00 AM"
+    },
+    {
+      "id": "129",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 2
+        },
+        {
+          "id": "20",
+          "foodName": "Food 20",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "350",
+          "quantity": 1
+        },
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1110,
+      "GST": "55.50",
+      "totalAmount": 1166,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "02/05/2025",
+      "PlacedTime": "08:50:00 PM",
+      "PaymentDate": "02/05/2025",
+      "PaymentTime": "08:51:00 PM"
+    },
+    {
+      "id": "130",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 400,
+      "GST": "20.00",
+      "totalAmount": 420,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "14/05/2025",
+      "PlacedTime": "10:13:00 AM",
+      "PaymentDate": "14/05/2025",
+      "PaymentTime": "10:23:00 AM"
+    },
+    {
+      "id": "131",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 940,
+      "GST": "47.00",
+      "totalAmount": 987,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "27/05/2025",
+      "PlacedTime": "02:57:00 PM",
+      "PaymentDate": "27/05/2025",
+      "PaymentTime": "03:00:00 PM"
+    },
+    {
+      "id": "132",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 2
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 680,
+      "GST": "34.00",
+      "totalAmount": 714,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "19/05/2025",
+      "PlacedTime": "06:13:00 PM",
+      "PaymentDate": "19/05/2025",
+      "PaymentTime": "06:15:00 PM"
+    },
+    {
+      "id": "133",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 750,
+      "GST": "37.50",
+      "totalAmount": 788,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "21/05/2025",
+      "PlacedTime": "04:42:00 PM",
+      "PaymentDate": "21/05/2025",
+      "PaymentTime": "04:50:00 PM"
+    },
+    {
+      "id": "134",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 140,
+      "GST": "7.00",
+      "totalAmount": 147,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "05/05/2025",
+      "PlacedTime": "05:31:00 PM",
+      "PaymentDate": "05/05/2025",
+      "PaymentTime": "05:41:00 PM"
+    },
+    {
+      "id": "135",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1500,
+      "GST": "75.00",
+      "totalAmount": 1575,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "12/05/2025",
+      "PlacedTime": "06:33:00 PM",
+      "PaymentDate": "12/05/2025",
+      "PaymentTime": "06:41:00 PM"
+    },
+    {
+      "id": "136",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 1010,
+      "GST": "50.50",
+      "totalAmount": 1060,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "10/05/2025",
+      "PlacedTime": "04:45:00 PM",
+      "PaymentDate": "10/05/2025",
+      "PaymentTime": "04:51:00 PM"
+    },
+    {
+      "id": "137",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 60,
+      "GST": "3.00",
+      "totalAmount": 63,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "03/05/2025",
+      "PlacedTime": "02:45:00 PM",
+      "PaymentDate": "03/05/2025",
+      "PaymentTime": "02:51:00 PM"
+    },
+    {
+      "id": "138",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 190,
+      "GST": "9.50",
+      "totalAmount": 200,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "19/05/2025",
+      "PlacedTime": "10:47:00 AM",
+      "PaymentDate": "19/05/2025",
+      "PaymentTime": "10:51:00 AM"
+    },
+    {
+      "id": "139",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 440,
+      "GST": "22.00",
+      "totalAmount": 462,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "20/05/2025",
+      "PlacedTime": "07:31:00 PM",
+      "PaymentDate": "20/05/2025",
+      "PaymentTime": "07:38:00 PM"
+    },
+    {
+      "id": "140",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 280,
+      "GST": "14.00",
+      "totalAmount": 294,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "07/06/2025",
+      "PlacedTime": "05:00:00 PM",
+      "PaymentDate": "07/06/2025",
+      "PaymentTime": "05:09:00 PM"
+    },
+    {
+      "id": "141",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 720,
+      "GST": "36.00",
+      "totalAmount": 756,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "20/06/2025",
+      "PlacedTime": "10:25:00 AM",
+      "PaymentDate": "20/06/2025",
+      "PaymentTime": "10:26:00 AM"
+    },
+    {
+      "id": "142",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "7",
+          "foodName": "Food 7",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "240",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 2
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 860,
+      "GST": "43.00",
+      "totalAmount": 903,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "13/06/2025",
+      "PlacedTime": "07:48:00 PM",
+      "PaymentDate": "13/06/2025",
+      "PaymentTime": "07:56:00 PM"
+    },
+    {
+      "id": "143",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 130,
+      "GST": "6.50",
+      "totalAmount": 136,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "14/06/2025",
+      "PlacedTime": "11:08:00 AM",
+      "PaymentDate": "14/06/2025",
+      "PaymentTime": "11:09:00 AM"
+    },
+    {
+      "id": "144",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        },
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 510,
+      "GST": "25.50",
+      "totalAmount": 536,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "02/06/2025",
+      "PlacedTime": "05:36:00 PM",
+      "PaymentDate": "02/06/2025",
+      "PaymentTime": "05:40:00 PM"
+    },
+    {
+      "id": "145",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 540,
+      "GST": "27.00",
+      "totalAmount": 567,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "25/06/2025",
+      "PlacedTime": "03:40:00 PM",
+      "PaymentDate": "25/06/2025",
+      "PaymentTime": "03:48:00 PM"
+    },
+    {
+      "id": "146",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "16",
+          "foodName": "Food 16",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "140",
+          "quantity": 2
+        },
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 900,
+      "GST": "45.00",
+      "totalAmount": 945,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "01/06/2025",
+      "PlacedTime": "01:00:00 PM",
+      "PaymentDate": "01/06/2025",
+      "PaymentTime": "01:03:00 PM"
+    },
+    {
+      "id": "147",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 390,
+      "GST": "19.50",
+      "totalAmount": 410,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "21/06/2025",
+      "PlacedTime": "02:49:00 PM",
+      "PaymentDate": "21/06/2025",
+      "PaymentTime": "02:56:00 PM"
+    },
+    {
+      "id": "148",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "18",
+          "foodName": "Food 18",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "100",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 100,
+      "GST": "5.00",
+      "totalAmount": 105,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "10/06/2025",
+      "PlacedTime": "12:08:00 PM",
+      "PaymentDate": "10/06/2025",
+      "PaymentTime": "12:16:00 PM"
+    },
+    {
+      "id": "149",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 2
+        },
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 740,
+      "GST": "37.00",
+      "totalAmount": 777,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "27/06/2025",
+      "PlacedTime": "12:47:00 PM",
+      "PaymentDate": "27/06/2025",
+      "PaymentTime": "12:48:00 PM"
+    },
+    {
+      "id": "150",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 540,
+      "GST": "27.00",
+      "totalAmount": 567,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "06/06/2025",
+      "PlacedTime": "08:06:00 PM",
+      "PaymentDate": "06/06/2025",
+      "PaymentTime": "08:09:00 PM"
+    },
+    {
+      "id": "151",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        },
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 490,
+      "GST": "24.50",
+      "totalAmount": 514,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "27/06/2025",
+      "PlacedTime": "06:13:00 PM",
+      "PaymentDate": "27/06/2025",
+      "PaymentTime": "06:20:00 PM"
+    },
+    {
+      "id": "152",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "23",
+          "foodName": "Food 23",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "210",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 420,
+      "GST": "21.00",
+      "totalAmount": 441,
+      "paymentDone": true,
+      "paymentMode": "card payment",
+      "orderStatus": "Completed",
+      "PlacedDate": "16/06/2025",
+      "PlacedTime": "01:16:00 PM",
+      "PaymentDate": "16/06/2025",
+      "PaymentTime": "01:26:00 PM"
+    },
+    {
+      "id": "153",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 290,
+      "GST": "14.50",
+      "totalAmount": 304,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "09/06/2025",
+      "PlacedTime": "10:00:00 AM",
+      "PaymentDate": "09/06/2025",
+      "PaymentTime": "10:03:00 AM"
+    },
+    {
+      "id": "154",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "19",
+          "foodName": "Food 19",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "190",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 190,
+      "GST": "9.50",
+      "totalAmount": 200,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "24/06/2025",
+      "PlacedTime": "12:31:00 PM",
+      "PaymentDate": "24/06/2025",
+      "PaymentTime": "12:39:00 PM"
+    },
+    {
+      "id": "155",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "13",
+          "foodName": "Food 13",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "160",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "foodName": "Food 5",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "280",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 640,
+      "GST": "32.00",
+      "totalAmount": 672,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "20/06/2025",
+      "PlacedTime": "05:34:00 PM",
+      "PaymentDate": "20/06/2025",
+      "PaymentTime": "05:35:00 PM"
+    },
+    {
+      "id": "156",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        },
+        {
+          "id": "12",
+          "foodName": "Food 12",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "150",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 640,
+      "GST": "32.00",
+      "totalAmount": 672,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "22/06/2025",
+      "PlacedTime": "03:48:00 PM",
+      "PaymentDate": "22/06/2025",
+      "PaymentTime": "03:53:00 PM"
+    },
+    {
+      "id": "157",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "22",
+          "foodName": "Food 22",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "30",
+          "quantity": 2
+        },
+        {
+          "id": "17",
+          "foodName": "Food 17",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "290",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "foodName": "Food 4",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "320",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 670,
+      "GST": "33.50",
+      "totalAmount": 704,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "09/06/2025",
+      "PlacedTime": "12:47:00 PM",
+      "PaymentDate": "09/06/2025",
+      "PaymentTime": "12:53:00 PM"
+    },
+    {
+      "id": "158",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "21",
+          "foodName": "Food 21",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "170",
+          "quantity": 2
+        },
+        {
+          "id": "15",
+          "foodName": "Food 15",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "130",
+          "quantity": 1
+        }
+      ],
+      "orderValue": 470,
+      "GST": "23.50",
+      "totalAmount": 494,
+      "paymentDone": true,
+      "paymentMode": "upi",
+      "orderStatus": "Completed",
+      "PlacedDate": "14/06/2025",
+      "PlacedTime": "02:12:00 PM",
+      "PaymentDate": "14/06/2025",
+      "PaymentTime": "02:20:00 PM"
+    },
+    {
+      "id": "159",
+      "tablename": "Table 1",
+      "isTableEmpty": true,
+      "username": "",
+      "order": [
+        {
+          "id": "9",
+          "foodName": "Food 9",
+          "type": "Non-veg",
+          "cusine": "Indian",
+          "price": "180",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "foodName": "Food 10",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "220",
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "foodName": "Food 6",
+          "type": "veg",
+          "cusine": "Indian",
+          "price": "200",
+          "quantity": 2
+        }
+      ],
+      "orderValue": 800,
+      "GST": "40.00",
+      "totalAmount": 840,
+      "paymentDone": true,
+      "paymentMode": "cash",
+      "orderStatus": "Completed",
+      "PlacedDate": "24/06/2025",
+      "PlacedTime": "04:15:00 PM",
+      "PaymentDate": "24/06/2025",
+      "PaymentTime": "04:21:00 PM"
     }
   ]
 }
