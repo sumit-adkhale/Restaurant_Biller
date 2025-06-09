@@ -27,7 +27,7 @@ function DashboardHeader() {
         });
         localStorage.clear();
         navigate("/login");
-        window.location.reload();
+        // window.location.reload();
       }
     });
 
