@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAdmin, fetchUser } from "../../Store/Slice";
 import { useNavigate } from "react-router-dom";
 import { FaEyeSlash } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
-import { toast } from 'react-toastify';
-
+import { toast } from "react-toastify";
+import { MdOutlineContentCopy } from "react-icons/md";
+import { TiTick } from "react-icons/ti";
 
 function Login() {
   const navigate = useNavigate();
@@ -14,7 +15,22 @@ function Login() {
     password: "",
   });
 
+  const userNameRef = useRef();
+  const [userNameCopied, setUserNameCopied] = useState(true);
+
+  const userpasswordRef = useRef();
+  const [userPasswordCopied, setUserPasswordCopied] = useState(true);
+  
+  const adminUserNameRef = useRef();
+  const [adminUserNameCopied, setAdminUserNameCopied] = useState(true);
+
+  const adminPasswordRef = useRef();
+  const [adminPasswordCopied, setAdminPasswordCopied] = useState(true);
+  
+
   const [showPass, setShowPass] = useState({});
+
+  const [showLogin, setShowLogin] = useState(false);
 
   const dispatch = useDispatch();
   const { users, admin, status, error } = useSelector(
@@ -77,7 +93,7 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className="relative">
       <div className="flex w-full flex-wrap">
         <div className="flex w-full flex-col md:w-1/2 lg:w-1/3">
           <div className="my-auto flex flex-col justify-center px-6 pt-8 sm:px-24 md:justify-start md:px-8 md:pt-0 lg:px-12">
@@ -138,7 +154,11 @@ function Login() {
                       setShowPass(!showPass);
                     }}
                   >
-                    {showPass ? <FaEye  className="text-lg text-blue-500" /> : <FaEyeSlash className="text-lg text-blue-500" />}
+                    {showPass ? (
+                      <FaEye className="text-lg text-blue-500" />
+                    ) : (
+                      <FaEyeSlash className="text-lg text-blue-500" />
+                    )}
                   </div>
                 </div>
               </div>
@@ -149,9 +169,16 @@ function Login() {
                 <span className="w-full"> Submit </span>
               </button>
             </form>
-            <div className="pt-12 pb-12 text-center">
-              <p className="whitespace-nowrap"></p>
-            </div>
+            <button
+              onClick={() => {
+                setShowLogin((prev) => !prev);
+              }}
+              className="py-2 mt-4 hover:border hover:animate-pulse rounded-xl text-center bg-gradient-to-r from-[#2A7B9B] via-[#57C785] to-[#EDDD53]"
+            >
+              {showLogin
+                ? "Hide Credentials"
+                : "Click Here To Get Login Credentials"}
+            </button>
           </div>
         </div>
         <div className="pointer-events-none hidden select-none bg-black shadow-2xl md:block md:w-1/2 lg:w-2/3">
@@ -159,6 +186,120 @@ function Login() {
             className="h-full w-full object-cover opacity-90"
             src="login_img.jpg"
           />
+        </div>
+      </div>
+      <div
+        className={` h-[50vh] w-[50vw] flex justify-around rounded-xl bg-white/30 backdrop-blur-sm absolute top-10 right-7 ${
+          showLogin ? "" : "hidden"
+        }`}
+      >
+        <div className="flex flex-col w-[50%] justify-center items-center">
+          <h1 className="text-2xl font-semibold text-black">Billing Desk Login</h1>
+          <h2>Username</h2>
+          <div class="relative w-full mb-3 max-w-[16rem]">
+            <input
+              ref={userNameRef}
+              type="text"
+              class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-2.5 py-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              value="user1"
+              disabled
+              readonly
+            />
+            <button
+              onClick={() => {
+                window.navigator.clipboard.writeText(userNameRef.current.value);
+                setUserNameCopied(false);
+              }}
+              className="absolute end-2.5 top-1/2 -translate-y-1/2 text-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 rounded-lg py-2 px-2.5 inline-flex items-center justify-center bg-white border-gray-200 border h-8"
+            >
+              <span class="inline-flex items-center">
+                {userNameCopied ? <MdOutlineContentCopy /> : <TiTick />}
+                <span class="text-xs font-semibold ml-1">
+                  {userNameCopied ? "Copy" : "Copied"}
+                </span>
+              </span>
+            </button>
+          </div>
+
+          <h2>Password</h2>
+          <div class="relative w-full max-w-[16rem]">
+            <input
+              ref={userpasswordRef}
+              type="text"
+              class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-2.5 py-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              value="user123"
+              disabled
+              readonly
+            />
+            <button
+              onClick={() => {
+                window.navigator.clipboard.writeText(userpasswordRef.current.value);
+                setUserPasswordCopied(false);
+              }}
+              className="absolute end-2.5 top-1/2 -translate-y-1/2 text-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 rounded-lg py-2 px-2.5 inline-flex items-center justify-center bg-white border-gray-200 border h-8"
+            >
+              <span class="inline-flex items-center">
+                {userPasswordCopied ? <MdOutlineContentCopy /> : <TiTick />}
+                <span class="text-xs font-semibold ml-1">
+                  {userPasswordCopied ? "Copy" : "Copied"}
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center w-[50%]">
+          <h1 className="text-2xl font-semibold text-black">Manager / Owner Login</h1>
+          <h2>Username</h2>
+          <div class="relative w-full max-w-[16rem] mb-3">
+            <input
+              ref={adminUserNameRef}
+              type="text"
+              class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-2.5 py-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              value="admin1"
+              disabled
+              readonly
+            />
+            <button
+              onClick={() => {
+                window.navigator.clipboard.writeText(adminUserNameRef.current.value);
+                setAdminUserNameCopied(false);
+              }}
+              className="absolute end-2.5 top-1/2 -translate-y-1/2 text-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 rounded-lg py-2 px-2.5 inline-flex items-center justify-center bg-white border-gray-200 border h-8"
+            >
+              <span class="inline-flex items-center">
+                {adminUserNameCopied ? <MdOutlineContentCopy /> : <TiTick />}
+                <span class="text-xs font-semibold ml-1">
+                  {adminUserNameCopied ? "Copy" : "Copied"}
+                </span>
+              </span>
+            </button>
+          </div>
+
+          <h2>Password</h2>
+          <div class="relative w-full max-w-[16rem]">
+            <input
+              ref={adminPasswordRef}
+              type="text"
+              class="col-span-6 bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full px-2.5 py-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              value="admin123"
+              disabled
+              readonly
+            />
+            <button
+              onClick={() => {
+                window.navigator.clipboard.writeText(adminPasswordRef.current.value);
+                setAdminPasswordCopied(false);
+              }}
+              className="absolute end-2.5 top-1/2 -translate-y-1/2 text-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 rounded-lg py-2 px-2.5 inline-flex items-center justify-center bg-white border-gray-200 border h-8"
+            >
+              <span class="inline-flex items-center">
+                {adminPasswordCopied ? <MdOutlineContentCopy /> : <TiTick />}
+                <span class="text-xs font-semibold ml-1">
+                  {adminPasswordCopied ? "Copy" : "Copied"}
+                </span>
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
